@@ -8,7 +8,6 @@ export class Board{
     }
     sise:number = 0;
     cells:Cell[][]=[];
-
     public initBoard(){
         for(let i = 0; i < this.sise; i++){
             let row:Cell[]=[];
