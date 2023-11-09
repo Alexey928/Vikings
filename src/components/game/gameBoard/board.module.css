@@ -1,0 +1,10 @@
+.board{
+    border-radius: 3px;
+    background-color: #daf6f0;
+    width: calc(50px*11);
+    height: calc(50px*11);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
