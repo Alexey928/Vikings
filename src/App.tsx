@@ -10,7 +10,7 @@ function App() {
     console.log(board.initBoard());
 
     useEffect(() => {
-        
+
         }, [])
 
     const restart = () => {

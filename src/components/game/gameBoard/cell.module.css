@@ -4,10 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid goldenrod;
 }
 .black{
     background-color: #463c06;
 }
+
 .white{
     background-color: #b69b06;
 }
