@@ -1,6 +1,7 @@
 import {Colors} from "../Colors";
 import {Cell} from "../cell";
 import {useId} from "react";
+import Logo from "../../../public/King.png"
 
 
 export enum FifureNames{
@@ -11,14 +12,14 @@ export enum FifureNames{
 
 export class Figure{
     colors:Colors;
-    logo:null;
+    logo: typeof Logo;
     cell:Cell;
     name:string;
     id:string;
 
     constructor(colors: Colors, cell: Cell) {
         this.colors = colors;
-        this.logo = null;
+        this.logo = "";
         this.cell = cell;
         this.name = FifureNames.FIGURE
         this.id = useId();
