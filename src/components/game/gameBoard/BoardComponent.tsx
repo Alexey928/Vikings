@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import CellComponent from "./CellComponent";
 import style from "./board.module.css"
@@ -10,7 +12,7 @@ interface BoardComponent {
 
 
 
-const BoardComponent: React.FC<BoardComponent> = ({board, setBoard}) => {
+const BoardComponent: React.FC<BoardComponent> = ({board}) => {
     return (
         <div className={style.board}>
             {board.cells.map((row, index) =>
