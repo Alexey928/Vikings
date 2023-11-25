@@ -8,6 +8,8 @@ interface BoardComponent {
     setBoard: (newBoard: Board) => void
 }
 
+
+
 const BoardComponent: React.FC<BoardComponent> = ({board, setBoard}) => {
     return (
         <div className={style.board}>

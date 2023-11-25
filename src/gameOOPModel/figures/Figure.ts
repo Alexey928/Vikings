@@ -17,6 +17,8 @@ export class Figure{
     name:string;
     id:string;
 
+
+
     constructor(colors: Colors, cell: Cell) {
         this.colors = colors;
         this.logo = "";
