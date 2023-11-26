@@ -10,10 +10,9 @@ interface BoardComponent {
     setBoard: (newBoard: Board) => void
 }
 
-
-
 const BoardComponent: React.FC<BoardComponent> = ({board}) => {
     return (
+
         <div className={style.board}>
             {board.cells.map((row, index) =>
                 <React.Fragment key={index}>
