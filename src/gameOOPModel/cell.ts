@@ -2,6 +2,8 @@ import {Colors} from "./Colors";
 import {Figure} from "./figures/Figure";
 import {Board} from "./board";
 
+
+
 export class Cell{
  readonly x:number;
  readonly y:number ;
