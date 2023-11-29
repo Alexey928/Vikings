@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../modern-strike/bad-cops/.idea/bad-cops.iml" filepath="$PROJECT_DIR$/../../modern-strike/bad-cops/.idea/bad-cops.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vikings-warior.iml" filepath="$PROJECT_DIR$/.idea/vikings-warior.iml" />
     </modules>
   </component>

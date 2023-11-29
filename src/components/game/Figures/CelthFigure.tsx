@@ -1,9 +1,11 @@
 import React from 'react';
 
+
+
 const CelthFigure = () => {
     return (
         <div>
-            кельт
+            celt
         </div>
     );
 };
