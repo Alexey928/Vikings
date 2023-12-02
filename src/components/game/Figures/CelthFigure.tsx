@@ -9,4 +9,6 @@ const CelthFigure = () => {
     );
 };
 
+
+
 export default CelthFigure;
