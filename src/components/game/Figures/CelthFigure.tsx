@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const CelthFigure = () => {
     return (
         <div>
